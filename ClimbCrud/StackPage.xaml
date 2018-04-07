@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+
+    Padding="0,20,0,0"
+    BackgroundColor="#127ac7"
+    xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ClimbCrud.StackPage">
+    <StackLayout 
+         VerticalOptions="Center"
+         Spacing="20"
+         Padding="40">
+        
+        <StackLayout HorizontalOptions="Center">
+            <Label TextColor="Ivory" Text="Welcome to ClimbCrud" FontSize="28" FontAttributes="Bold"/>
+            <Label TextColor="Ivory" Text="Smarter and Harder  Progression" FontSize="18"/>
+        </StackLayout>
+
+
+        <Button BackgroundColor="#1dabf0" Text="Login"/>
+        <Button BackgroundColor="#1dabf0" Text="Register"/>
+    
+    </StackLayout>
+
+</ContentPage>

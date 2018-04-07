@@ -5,15 +5,12 @@ using Xamarin.Forms;
 
 namespace ClimbCrud
 {
-    public partial class GreetPage : ContentPage
+    public partial class ImagePage : ContentPage
     {
-
-        public GreetPage()
+        public ImagePage()
         {
             InitializeComponent();
 
-            slider.Value = 0.5;
         }
-
     }
 }

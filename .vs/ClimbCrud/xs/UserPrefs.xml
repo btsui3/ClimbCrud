@@ -1,18 +1,21 @@
 ﻿<Properties StartupConfiguration="{0309DC77-8422-4D62-A3C5-B271D55E120A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ClimbCrud/App.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ClimbCrud/StackPage.xaml">
     <Files>
-      <File FileName="ClimbCrud/GreetPage.xaml" Line="9" Column="9" />
-      <File FileName="ClimbCrud/GreetPage.xaml.cs" Line="15" Column="9" />
-      <File FileName="ClimbCrud/App.xaml.cs" Line="17" Column="23" />
+      <File FileName="ClimbCrud/App.xaml.cs" Line="28" Column="1" />
+      <File FileName="ClimbCrud/StackPage.xaml" Line="4" Column="1" />
+      <File FileName="ClimbCrud/StackPage.xaml.cs" Line="14" Column="15" />
+      <File FileName="ClimbCrud/ImagePage.xaml" Line="11" Column="47" />
+      <File FileName="ClimbCrud/ImagePage.xaml.cs" Line="11" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ClimbCrud" expanded="True">
             <Node name="ClimbCrud" expanded="True">
-              <Node name="App.xaml" expanded="True">
-                <Node name="App.xaml.cs" selected="True" />
-              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="GreetPage.xaml" expanded="True" />
+              <Node name="ImagePage.xaml" expanded="True" />
+              <Node name="StackPage.xaml" expanded="True" selected="True" />
             </Node>
             <Node name="ClimbCrud.iOS" expanded="True" />
           </Node>

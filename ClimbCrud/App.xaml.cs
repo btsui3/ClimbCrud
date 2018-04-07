@@ -19,9 +19,9 @@ namespace ClimbCrud
                 DependencyService.Register<CloudDataStore>();
 
             if (Device.RuntimePlatform == Device.iOS)
-                MainPage = new GreetPage(); 
+                MainPage = new ImagePage(); 
             else
-                MainPage = new NavigationPage(new GreetPage());
+                MainPage = new NavigationPage(new ImagePage());
         }
     }
 }
