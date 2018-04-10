@@ -12,7 +12,6 @@ namespace ClimbCrud
         {
             InitializeComponent();
 
-            slider.Value = 0.5;
         }
 
     }

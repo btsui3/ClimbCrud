@@ -11,6 +11,10 @@ namespace ClimbCrud
         {
             InitializeComponent();
 
+            image.Source = ImageSource.FromResource("/Users/btsui/Projects/ClimbCrud/ClimbCrud/Images/LauraHueco.png");   
+      
+
+
         }
     }
 }

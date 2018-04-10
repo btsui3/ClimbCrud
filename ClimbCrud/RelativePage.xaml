@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    Padding="0, 20, 0, 0"
+    xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ClimbCrud.RelativePage">
+    <RelativeLayout>
+        <BoxView Color="#f7f7f7" x:Name="banner"
+            RelativeLayout.WidthConstraint="{ConstraintExpression
+                 Type=RelativeToParent, 
+                 Property=Width, 
+                 Factor=1}"
+
+             RelativeLayout.HeightConstraint="{ConstraintExpression 
+                Type=RelativeToParent,
+                Property=Height,
+                Factor=.3}"/>
+        
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center"
+                RelativeLayout.WidthConstraint="{ConstraintExpression 
+                    Type=RelativeToParent, 
+                    Property=Width, 
+                    Factor=1}"
+
+                RelativeLayout.HeightConstraint="{ConstraintExpression 
+                    Type=RelativeToParent, 
+                    Property=Height, 
+                    Factor=.3}">
+            
+                <Label 
+                    Text="$11.95" 
+                    FontAttributes="Bold" 
+                    FontSize="60" 
+                    TextColor="#33353a"/>
+
+            <Button BackgroundColor="#1695A3"
+                    BorderRadius="15"
+                    HeightRequest="30"
+                    FontAttributes="Bold"
+                    Text="Purchase"
+                    TextColor="White"/>
+            </StackLayout>
+
+              <StackLayout HorizontalOptions="Center" VerticalOptions="Center"
+                RelativeLayout.WidthConstraint="{ConstraintExpression 
+                    Type=RelativeToParent, 
+                    Property=Width, 
+                    Factor=1}"
+
+                RelativeLayout.YConstraint="{ConstraintExpression 
+                    Type=RelativeToView, 
+                    ElementName=banner,
+                    Property=Height, 
+                    Factor=1,
+                    Constant=30}">
+                               
+            
+                <Label 
+                    Text="Why pay for credit" 
+                    FontAttributes="Bold" 
+                    FontSize="15" 
+                    HorizontalOptions="Center"/>
+
+            <Label HorizontalTextAlignment="Center" >
+                Because we need your money
+            </Label>
+            
+            </StackLayout>
+
+    </RelativeLayout>
+</ContentPage>

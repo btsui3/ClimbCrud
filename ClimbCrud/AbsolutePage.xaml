@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    Padding="0,20,0,0"
+    xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ClimbCrud.AbsolutePage">
+    <AbsoluteLayout>
+            <Image Source="http://lorempixel.com/1920/1080/nature/7" 
+                   Aspect="AspectFill"
+                   AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                   AbsoluteLayout.LayoutFlags="All"/>
+        
+            <BoxView Color="Black"
+                     Opacity="0.5"
+                     AbsoluteLayout.LayoutBounds="0, 1, 1, 100"
+                     AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional"/>
+
+            <StackLayout 
+                     AbsoluteLayout.LayoutBounds="0, 0, 1, 0.2"
+                     AbsoluteLayout.LayoutFlags="All"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center">
+
+                <Label Text="Relax"
+                       TextColor="White"
+                       FontSize="30"/>
+            </StackLayout>
+
+        <StackLayout AbsoluteLayout.LayoutBounds="0, 1, 1, .1"
+                     AbsoluteLayout.LayoutFlags="All"
+                     Orientation="Horizontal"
+                     Padding="30, 0, 30, 30">
+            <Label FontSize="15" 
+                   FontAttributes="Bold"
+                   Text="Profile" 
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   TextColor="White"/>
+
+            <Label FontSize="15" 
+                   FontAttributes="Bold"
+                   Text="Meditate" 
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center"
+                   TextColor="White"/>
+
+            <Label FontSize="15" 
+                   FontAttributes="Bold"
+                   Text="Themes" 
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   TextColor="White"/>
+            
+        </StackLayout>
+
+    </AbsoluteLayout>
+</ContentPage>
