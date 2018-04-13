@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ClimbCrud.Views.ImageGalleryPage"
+    BackgroundColor="Black">
+    
+    <AbsoluteLayout>
+        <ActivityIndicator IsRunning="{Binding Source={x:Reference image}, Path=IsLoading}"
+           Color="White"
+           AbsoluteLayout.LayoutBounds="0.5, 0.1, 100, 100"
+           AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        
+        <Image
+            x:Name="image"
+            AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, .3"
+            AbsoluteLayout.LayoutFlags="All"
+            HeightRequest="160"
+            WidthRequest="720"
+            Aspect="AspectFill"/>
+        
+        <Button Image="left@3x.png" 
+            AbsoluteLayout.LayoutBounds="0.1, 0.1, 100, 100"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            Clicked="Left_Clicked"/>
+        <Button Image="right@3x.png"  
+            AbsoluteLayout.LayoutBounds="0.9, 0.1, 100, 100"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            Clicked="Right_Clicked"/>
+
+        
+
+
+        
+    </AbsoluteLayout>
+</ContentPage>

@@ -1,5 +1,5 @@
 ﻿using System;
-
+using ClimbCrud.Views;
 using Xamarin.Forms;
 
 namespace ClimbCrud
@@ -19,9 +19,9 @@ namespace ClimbCrud
                 DependencyService.Register<CloudDataStore>();
 
             if (Device.RuntimePlatform == Device.iOS)
-                MainPage = new ImagePage(); 
+                MainPage = new ImageGalleryPage(); 
             else
-                MainPage = new NavigationPage(new ImagePage());
+                MainPage = new NavigationPage(new ImageGalleryPage());
         }
     }
 }

@@ -1,20 +1,26 @@
 ﻿<Properties StartupConfiguration="{0309DC77-8422-4D62-A3C5-B271D55E120A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ClimbCrud/ImagePage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ClimbCrud/Views/GreetPage.xaml">
     <Files>
-      <File FileName="ClimbCrud/App.xaml.cs" Line="22" Column="1" />
-      <File FileName="ClimbCrud/ImagePage.xaml" Line="13" Column="15" />
-      <File FileName="ClimbCrud/ImagePage.xaml.cs" Line="14" Column="7" />
+      <File FileName="ClimbCrud/Views/App.xaml.cs" Line="24" Column="67" />
+      <File FileName="ClimbCrud/Views/ImageGalleryPage.xaml" Line="10" Column="79" />
+      <File FileName="ClimbCrud/Views/ImagePage.xaml" Line="21" Column="14" />
+      <File FileName="ClimbCrud/Views/ImageGalleryPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="ClimbCrud/Views/ImagePage.xaml.cs" Line="11" Column="10" />
+      <File FileName="ClimbCrud/Views/ImageCirclePage.xaml" Line="3" Column="13" />
+      <File FileName="ClimbCrud/Views/GreetPage.xaml" Line="23" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ClimbCrud" expanded="True">
             <Node name="ClimbCrud" expanded="True">
-              <Node name="Views" expanded="True" />
-              <Node name="AbsolutePage.xaml" expanded="True" />
-              <Node name="App.xaml" expanded="True" />
-              <Node name="ImagePage.xaml" expanded="True" selected="True" />
-              <Node name="RelativePage.xaml" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="App.xaml" expanded="True" />
+                <Node name="GreetPage.xaml" expanded="True" selected="True" />
+                <Node name="ImageCirclePage.xaml" expanded="True" />
+                <Node name="ImageGalleryPage.xaml" expanded="True" />
+                <Node name="ImagePage.xaml" expanded="True" />
+              </Node>
             </Node>
             <Node name="ClimbCrud.iOS" expanded="True" />
           </Node>
@@ -37,7 +43,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.ClimbCrud.Droid AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ClimbCrud.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6DFC98CF-B897-4D54-BAE4-ED07A201C836">
+  <MonoDevelop.Ide.ItemProperties.ClimbCrud.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A98B0111-69BC-4335-9019-1ECC0834A094">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.ClimbCrud.iOS>
 </Properties>
