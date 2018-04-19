@@ -11,11 +11,11 @@ namespace ClimbCrud.Views
         {
             InitializeComponent();
 
-            btn.Image = (FileImageSource)ImageSource.FromFile(Device.OnPlatform(
-                iOS: "clock.png",
-                Android: "clock.png",
-                WinPhone: "Images/clock.png"
-            ));
+            //btn.Image = (FileImageSource)ImageSource.FromFile(Device.OnPlatform(
+            //    iOS: "clock.png",
+            //    Android: "clock.png",
+            //    WinPhone: "Images/clock.png"
+            //));
 
             image.Source = ImageSource.FromResource("ClimbCrud.Images.LauraHueco.png");   
         }
